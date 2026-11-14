@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <UseAppHost>true</UseAppHost>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>AGoT_RU</AssemblyName>
+    <ApplicationIcon>AGoT_RU.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Payload.zip" LogicalName="AGoT.Payload.zip" />
+    <EmbeddedResource Include="xdelta3.exe" LogicalName="AGoT.xdelta3.exe" />
+  </ItemGroup>
+</Project>

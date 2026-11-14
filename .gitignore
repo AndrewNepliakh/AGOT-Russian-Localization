@@ -50,3 +50,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+AGoT_RU/.idea/
+AGoT_RU/bin/
+AGoT_RU/obj/
+AGoT_RU/publish/
+AGoT_RU/_payload_stage/
+AGoT_RU/Payload.zip
+AGoT_RU/xdelta3.exe
